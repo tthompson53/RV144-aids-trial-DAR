@@ -45,7 +45,7 @@ rownames(results) <- c("none","aids")
 
 ## Results
 <!-- You are to add descriptive comments to explain to the reader what the plot is showing !-->
-
+With this information, we're going to take it and interpret it with a series of plots and numbers. In the barchart we compare the two groups of nonaids and aids with a placebo and aids vaccine. We are going to identify percentages and the difference between the two groups and two variables. 
 ### Graphical results
 <!--Display graphical evidence as to the effectiveness of the vaccine with explanations!-->
 ```{r}
