@@ -52,6 +52,7 @@ rownames(results) <- c("none","aids")
 barchartGC(results,type = "percent")
 ```
 
+
 ### Numerical Results
 
 <!--Display numerical evidence as to the effectiveness of the vaccine with explanations !--> 
@@ -72,6 +73,9 @@ rowPerc(results)
 chisqtestGC(results, graph = TRUE)
 ```
 
+```{r}
+fisher.test(results)
+```
 
 ## Conclusions
 
