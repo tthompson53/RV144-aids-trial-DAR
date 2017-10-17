@@ -1,7 +1,7 @@
 ---
 title: "RV144 Aids trials"
 author: Tristyn Thompson
-date: "April 13, 2016"
+date: "October 17, 2017"
 output: html_document
 ---
 
@@ -50,7 +50,10 @@ With this information, we're going to take it and interpret it with a series of 
 <!--Display graphical evidence as to the effectiveness of the vaccine with explanations!-->
 ```{r}
 barchartGC(results,type = "percent")
+
 ```
+
+Looking the barchart, in the first group, "none," it is a 50/50 distribution of the two types of vaccines. In the second group, "aids," 40% received the aids vaccine and 60% received a placebo vaccine. In the first group there was not a significant difference between the two vaccines. In the second group the placebo vaccine made a significant difference with those that had aids. Those that received the vaccine in the second group lessened the number of people that had aids to begin with.
 
 
 ### Numerical Results
@@ -61,7 +64,6 @@ barchartGC(results,type = "percent")
 colPerc(results)
 rowPerc(results)
 ```
-
 
 
 
