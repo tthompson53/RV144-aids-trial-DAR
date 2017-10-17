@@ -85,10 +85,10 @@ Our alternative hypothesis:
 The vaccine had an effect on those with aids.
 
 The p-value is less than 0.05% which means we reject the null hypothesis. This means that vaccine had an effect on whether one contracted aids or not.
-```{r}
-fisher.test(results)
-```
+
 
 ## Conclusions
 
 <Summarise your results as to the effectiveness of the vaccine with explanations that could be understood by your mom>
+
+In conclusion, the vaccine did have an effect, on decreasing the number of people who contracted the aids virus. 
